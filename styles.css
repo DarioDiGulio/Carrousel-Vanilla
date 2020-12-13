@@ -1,0 +1,58 @@
+/* Provisorias */
+
+img {
+  width: 250px;
+}
+
+/* Definitivas */
+
+body {
+  display: flex;
+}
+
+.action-arrow {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.action-arrow:hover {
+  transition: 150ms;
+  transform: scale(1.5);
+}
+
+#carrousel {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 100vw;
+}
+
+.carrousel-item {
+  margin: auto;
+  align-self: center;
+}
+
+.visible:hover {
+  transition: 150ms;
+  transform: scale(1.2);
+}
+
+.prev:hover,
+.next:hover {
+  transition: 150ms;
+  transform: scale(0.8);
+  opacity: 1;
+}
+
+.prev,
+.next {
+  opacity: 0.6;
+  transition: 150ms;
+  transform: scale(0.6);
+}
+
+.no-visible {
+  display: none;
+}
