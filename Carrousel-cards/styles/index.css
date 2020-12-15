@@ -1,0 +1,97 @@
+.card01{
+    width: 25%;
+    height: 10%;
+    border-radius: 10px 8px;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    box-decoration-break: clone;
+    background-color: black;
+    margin: 10%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.card02{
+    width: 25%;
+    height: 10%;
+    border-radius: 10px 8px;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    box-decoration-break: clone;
+    background-color: black;
+    margin: 10%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.card03{
+    width: 25%;
+    height: 10%;
+    border-radius: 10px 8px;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    box-decoration-break: clone;
+    background-color: black;
+    margin: 10%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+  
+.container {
+    padding: 5%
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+body{
+    background-color:grey;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+
+p{
+  color: #fafafa;
+  font-size: 15px;
+  padding: 10px 0px 0px 10px;
+  margin-bottom: 20px;
+}
+
+h2{
+    position: static;
+    color: red;
+    font-size: 20px;
+    padding: 10px 0px 0px 10px;
+  }
+
+  h1{ position: relative;
+    color: #fafafa;
+    font-size: 25px;
+    padding: 10px 0px 0px 10px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+
+section{
+    width: 90%;
+    margin: auto;
+}
