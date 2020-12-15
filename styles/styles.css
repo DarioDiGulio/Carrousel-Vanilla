@@ -1,13 +1,7 @@
-/* Provisorias */
-
-img {
-  width: 250px;
-}
-
-/* Definitivas */
-
 body {
   display: flex;
+  background-color: grey;
+  font-family: "Oswald", sans-serif;
 }
 
 .action-arrow {
@@ -55,4 +49,51 @@ body {
 
 .no-visible {
   display: none;
+}
+
+.card01 {
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 185px;
+  background-color: black;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  padding: 5%;
+  text-align: center;
+}
+
+.card-description, p {
+  color: #fafafa;
+  font-size: 0.5rem;
+  text-align: justify;
+}
+
+h2, .card-code{
+  color: #e01037;
+  font-size: 0.9rem;
+  text-align: left !important;
+}
+
+h1 {
+  color: #fafafa;
+  font-size: 1rem;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-action {
+  background-color: #e01037;
+  border-radius: 5px;
+  border-color: #e01037;
+  color: #fafafa;
+  padding: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.card-action > a,
+.card-action > a:visited{
+  text-decoration: none;
 }
