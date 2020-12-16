@@ -1,8 +1,9 @@
 body {
-  display: flex;
   background-color: grey;
   font-family: "Oswald", sans-serif;
 }
+
+/* Arrows */
 
 .action-arrow {
   width: 15px;
@@ -13,14 +14,16 @@ body {
 
 .action-arrow:hover {
   transition: 150ms;
-  transform: scale(1.5);
+  transform: scale(1.45);
 }
+
+/* Carrousel */
 
 #carrousel {
   display: flex;
   align-items: center;
   margin: auto;
-  width: 100vw;
+  width: 80vw;
 }
 
 .carrousel-item {
@@ -30,13 +33,13 @@ body {
 
 .visible:hover {
   transition: 150ms;
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 
 .prev:hover,
 .next:hover {
   transition: 150ms;
-  transform: scale(0.8);
+  transform: scale(0.65);
   opacity: 1;
 }
 
@@ -51,10 +54,11 @@ body {
   display: none;
 }
 
+/* Card */
+
 .card01 {
   border-radius: 10px;
-  box-sizing: border-box;
-  width: 185px;
+  margin: auto;
   background-color: black;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
 }
@@ -64,19 +68,19 @@ body {
   text-align: center;
 }
 
-.card-description, p {
+.card-description {
   color: #fafafa;
   font-size: 0.5rem;
   text-align: justify;
 }
 
-h2, .card-code{
+.card-code {
   color: #e01037;
   font-size: 0.9rem;
   text-align: left !important;
 }
 
-h1 {
+.card-title {
   color: #fafafa;
   font-size: 1rem;
   padding: 10px;
@@ -93,7 +97,33 @@ h1 {
   outline: none;
 }
 
-.card-action > a,
-.card-action > a:visited{
-  text-decoration: none;
+.product-section {
+  text-align: center;
+  background-color: #fafafa;
+}
+
+/* Utilites */
+
+.non-selectable {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Media querys */
+
+@media (max-width: 700px) {
+  .prev,
+  .next {
+    display: none;
+  }
+
+  #prev {
+    margin-right: 20px;
+  }
+
+  #next {
+    margin-left: 20px;
+  }
 }
