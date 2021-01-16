@@ -3,7 +3,17 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/desarrolloupward/public_html
     - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R clases $DEPLOYPATH
+    - /bin/cp -R ejecutables $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R pages $DEPLOYPATH
     - /bin/cp -R styles $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp config.php $DEPLOYPATH
+    - /bin/cp estilos.css $DEPLOYPATH
+    - /bin/cp footer.php $DEPLOYPATH
+    - /bin/cp head.php $DEPLOYPATH
+    - /bin/cp header.php $DEPLOYPATH
+    - /bin/cp main.php $DEPLOYPATH
+    - /bin/cp slider.php $DEPLOYPATH
