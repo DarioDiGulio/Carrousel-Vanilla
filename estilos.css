@@ -1,0 +1,474 @@
+@charset "utf-8";
+	a:link {
+		text-decoration: none;
+	}
+	a:visited {
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	a:active {
+		text-decoration: none;
+	}
+input[type="submit"],
+button{
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+input[type="text"],
+button{
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+input[type="button"],
+button{
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+*:focus {
+     outline: none;
+}
+body {
+    padding: 0;
+	font-family: 'Hind Madurai', sans-serif;
+	margin: auto;
+}
+header{
+	padding-top:10px;
+	padding-bottom:10px;
+    width: 100%;
+    overflow: hidden;
+}
+.logoMenu{
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.logo{
+    animation-name:anlogo;
+	animation-duration:3s;
+    width: 200px;
+    overflow: hidden;
+    float:left;
+}
+nav{
+    margin-top: 50px;
+    float: left;
+    width: 700px;
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+nav li
+{
+    color: #333;
+    animation-name:anMenu;
+	animation-duration:5s;
+    margin-left: 100px; 
+
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+}
+nav li:hover
+{
+    cursor: pointer;
+    color: #e01037;
+}
+.lineaRoja1{
+    animation-name:lineaRoja;
+	animation-duration:3s;
+    width: 100%;
+    height: 2px;
+    background: #e01037;
+}
+
+
+@keyframes anlogo {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes anlogo {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity:1;
+    }
+ }
+ @keyframes anMenu {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes anMenu {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity:1;
+    }
+ }
+@keyframes lineaRoja {
+    from { 
+        width: 0%;
+        opacity: 0;
+    }
+    to {
+        width:100%;
+        opacity:1;
+    }
+}
+@-webkit-keyframes lineaRoja {
+    from { 
+        width: 0%;
+        opacity: 0;
+    }
+    to {
+        width:100%;
+        opacity:1;
+    }
+}
+.slider{
+	animation-name: opacidad1;
+	animation-duration: 10s;
+	z-index:50;
+	margin-top:270px;
+	width: 100%;
+	position:absolute;
+	overflow:hidden;
+}
+.left{
+	cursor:pointer;
+	float:left;
+    width: 50px;
+	height: 50px;
+}
+.right{
+	cursor:pointer;
+	float:right;
+    width: 50px;
+	height: 50px;
+}
+.contImgText{
+	background-image: url(img/Home-slider1.jpg);
+	animation-name: opacidad1;
+	animation-duration: 2s;
+	width:100%;
+	height:600px;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+}
+.contTexto{
+	float:left;
+	padding-top:150px;
+	padding-left:150px;
+	color:#fff;
+	width:500px;
+	overflow:hidden;
+	padding-bottom:20px;
+}
+.contTexto h1{
+	animation-name: opacidad1;
+	animation-duration: 4s;
+	line-height: 1.2;
+	text-shadow: 2px 2px 2px #333;
+	font-weight: 400;
+	margin: 0;
+	color:#fff;
+	font-size:2em;
+}
+.contTexto p{
+	text-shadow: 2px 2px 2px #333;
+	margin-top:50px;
+	margin-bottom:50px;
+	color:#fff;
+	font-size:1.3em;
+}
+.contTexto hr{
+	margin-left:20px;
+	width:250px;
+}
+.contTexto a{
+	margin-top:50px;
+	color:#fff;
+	text-align:center;
+	width:150px;
+	border: 1.5px solid #FFF;
+	padding:15px;
+	font-size:1.4em;
+}
+.contImg{
+	animation-name: opacidad1;
+	animation-duration: 4s;
+	float:right;
+	width:500px;
+	height:500px;
+	margin-top:60px;
+	margin-right:100px;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+}
+.contLinea{
+	margin-top:15px;
+	width:100px;
+}
+
+@keyframes opacidad1 {
+  from {opacity: 0;}
+  to {opacity:1;}
+}
+@-webkit-keyframes opacidad1 {
+  from {opacity: 0;}
+  to {opacity:1;}
+}
+
+@keyframes anFondo {
+    from {
+        filter: grayscale(120%);		
+    }
+    to {
+        filter: grayscale(0%);
+    }
+}
+@-webkit-keyframes anFondo {
+    from {
+        filter: grayscale(120%);		
+    }
+    to {
+        filter: grayscale(0%);
+    }
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+  from { 
+        padding-top: 0px;
+        opacity: 0;
+    }
+    to {
+		padding-top: 200px;
+        opacity:1;
+    }
+}
+
+/* Standard syntax */
+@keyframes mymove {
+  from {
+        padding-top: 0px;	  
+        opacity: 0;
+    }
+    to {
+		padding-top: 200px;
+        opacity:1;
+    }
+}
+
+footer{
+	background: #333;
+	background-image: url(img/fondopie.png);
+	width: 100%;
+	overflow:hidden;
+}
+#contContacto{
+	margin-left:auto;
+	margin-right:auto;
+	width: 1200px;
+	overflow:hidden;
+	padding-bottom:50px;
+}
+.contContactoDentro{
+	float:left;
+	width: 600px;
+	overflow: hidden;
+}
+.formConsulta{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	width: 400px;
+	overflow: hidden;
+}
+.formtitulo{
+	color:#fff;
+	font-size: 1em;
+	margin-top:10px;
+	width: 400px;
+}
+.formInput{
+	margin-top: 10px;
+	width: 350px;
+	text-align: center;
+	border: 0.5px solid #CCC;
+	margin-right: auto;
+	margin-left: auto;
+	height: 40px;
+}
+.formulario textarea{
+	width: 400px;
+	margin-top: 10px;
+	text-align: center;
+	border: thin dotted #CCC;
+}
+#BotonFormulario{
+	cursor:pointer;
+	padding:10px;
+	margin-top: 20px;
+	font-size: 1em;
+	background: #999;
+	color: #fff;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#BotonFormulario:hover{
+	background: #333;
+}
+#resp{
+	text-align:center;
+	color:#fff;
+	font-size: 1.3em;
+}
+.contContactoLogDatos{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	width: 400px;
+	overflow: hidden;
+	text-align:center;
+}
+.contContactoLogTex{
+	font-size: 1em;
+	color: #fff;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	width: 400px;
+	overflow: hidden;
+	text-align:center;
+}
+@media screen and (min-width:10px) and (max-width:600px) {
+.logo{
+    text-align: left;
+	padding-left: 50px;
+    width: 550px;
+    float:none;
+}
+.logoMenu{
+    width: 600px;
+}
+.menuCel {
+  margin-top:40px;
+  margin-right:150px;	
+  float:right;
+  width: 35px;
+  height: 35px;
+}
+.menuCelDentro {
+  width: 50px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+nav{
+	display:none;
+    margin-top: 20px;
+    float: none;
+    width: 600px;
+}
+nav li{
+	margin-top:40px;
+	margin-bottom:40px;
+	width: 600px;
+	float:left;
+	font-size: 1.8em;
+    text-align: center;
+    list-style-type: none;
+	margin-left: 0px; 
+    margin-right: 0px;
+}	
+
+.lineaRoja1{
+    height: 5px;
+}
+
+#contContacto{
+   width: 600px;
+}
+.formtitulo{
+	color:#fff;
+	font-size: 1.5em;
+	margin-top:10px;
+	width: 500px;
+}
+.formInput{
+	font-size: 1.5em;
+	margin-top: 20px;
+	width: 550px;
+	text-align: center;
+	border: 0.5px solid #CCC;
+	margin-right: auto;
+	margin-left: auto;
+	height: 50px;
+}
+.formulario textarea{
+	width: 500px;
+	margin-top: 10px;
+	text-align: center;
+	border: thin dotted #CCC;
+}
+#BotonFormulario{
+	font-size: 1.5em;
+}
+.contContactoLogTex{
+	font-size: 1.4em;
+}
+.formConsulta{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	width: 500px;
+	overflow: hidden;
+}
+/*-------------------------*/
+.contImgText{
+	background:#5e5e5e;
+	animation-name: opacidad1;
+	animation-duration: 2s;
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size:100%;
+}
+.contTexto{
+	padding-top:50px;
+	padding-left:50px;
+	color:#fff;
+	width:500px;
+	overflow:hidden;
+	padding-bottom:20px;
+}
+.contImg{
+	width:500px;
+	height:500px;
+	margin-top:30px;
+	margin-right:50px;
+	
+}
+	
+}
