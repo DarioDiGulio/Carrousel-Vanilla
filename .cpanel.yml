@@ -17,3 +17,4 @@ deployment:
     - /bin/cp header.php $DEPLOYPATH
     - /bin/cp main.php $DEPLOYPATH
     - /bin/cp slider.php $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
