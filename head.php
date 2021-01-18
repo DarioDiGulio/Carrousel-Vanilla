@@ -17,7 +17,8 @@ include 'config.php';
 <link rel="icon" href="<?php echo URLSERVER;?>img/ico.ico" type="image/png">
 <title>TeraRed Ingenieria | Elevadores | Tableros | Grupos Electrogeno</title>
 <link href="<?php echo URLSERVER;?>estilos.css" rel="stylesheet" type="text/css">
-<link href="<?php echo URLSERVER;?>styles/styles.css" rel="stylesheet" type="text/css">
+<!-- <link href="<?php echo URLSERVER;?>styles/styles.css" rel="stylesheet" type="text/css"> -->
+<link href="styles/styles.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Hind+Madurai&display=swap" rel="stylesheet">
 </head>
 

@@ -17,8 +17,6 @@ function ventana() {
 }
 window.onload = setTimeout("ventana();");
 
-
-
 var varslider = document.querySelector('.contImgText');
 var varcontTexto = document.querySelector('.contTexto');
 var varcontImg = document.querySelector('.contImg');

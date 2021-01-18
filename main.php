@@ -1,7 +1,7 @@
 <main>
 <div id="carrousel">
       <img
-        src="images/prev.png"
+        src="img/prev.png"
         id="prev"
         alt="prev"
         class="action-arrow non-selectable"
@@ -11,7 +11,7 @@
           <h1 class="card-title">Fuente Switching Interna Premium 12V 16.5A</h1>
           <div class="product-section">
             <img
-              src="images/01imagen.jpg"
+              src="img/01imagen.jpg"
               alt="FUENTE-12-16"
               width="185"
               title="Imagen muetra de Fuente: FUENTE-12-16"
@@ -146,7 +146,7 @@
           <h1 class="card-title">Fuente Switching Interna Premium 12V 16.5A</h1>
           <div class="product-section">
             <img
-              src="images/01imagen.jpg"
+              src="img/01imagen.jpg"
               alt="FUENTE-12-16"
               width="185"
               title="Imagen muetra de Fuente: FUENTE-12-16"
@@ -200,7 +200,7 @@
           <h1 class="card-title">Fuente Switching Interna Premium 12V 16.5A</h1>
           <div class="product-section">
             <img
-              src="images/01imagen.jpg"
+              src="img/01imagen.jpg"
               alt="FUENTE-12-16"
               width="185"
               title="Imagen muetra de Fuente: FUENTE-12-16"
@@ -223,7 +223,7 @@
         </div>
       </div>
       <img
-        src="images/next.png"
+        src="img/next.png"
         id="next"
         alt="next"
         class="action-arrow non-selectable"

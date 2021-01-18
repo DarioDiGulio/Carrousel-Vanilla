@@ -33,4 +33,5 @@
 </div>
 </footer>
 <script type="text/javascript" src="<?php echo URLSERVER;?>js/eventos.js"></script>
-<script type="text/javascript" src="<?php echo URLSERVER;?>js/index.js"></script>
+<!-- <script type="text/javascript" src="<?php echo URLSERVER;?>js/index.js"></script> -->
+<script type="text/javascript" src="js/index.js"></script>
