@@ -8,13 +8,7 @@
     />
       <?php
         // include "./ejecutables/cargarProductos.php";
-      $articulos = array([
-          'nombre' => 'ESTE-879',
-          'id' => 'dqw',
-          'codigo' => '156-HSB',
-          'descripcion' => 'ESTABILIZADOR UPS',
-        ]);
-
+        
         foreach ($articulos as $articulo){
           ?>
           <div class="carrousel-item prev">

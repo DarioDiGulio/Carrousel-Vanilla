@@ -1,8 +1,9 @@
 <?php
-    require '../clases/DBConnect.php';
-    require '../clases/CargarProductos.php';
+    require '../clases/Articulos.php';
+    require '../clases/DBConnect.php';	
 
-    $productos = new CargarProductos();
-    $productos.cargarProductos();
-    echo $productos
+    $DBConnect = new DBConnect();
+    $articulos = new Articulos($DBConnect);
+    $todosLosArticulos = $articulos -> obtenerTodos();
+    echo $todosLosArticulos;
 ?>  
