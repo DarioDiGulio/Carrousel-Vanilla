@@ -14,12 +14,12 @@
             try{
                 $opciones = array (PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8");
                 $conect = new PDO (
-                    "mysql:host=".$this->$DB_HOST";dbname="$this->$DB_NAME,
+                    "mysql:host=" . $this -> $DB_HOST . ";dbname=" . $this -> $DB_NAME,
                    $this -> $DB_USER,
                    $this -> $DB_PASS,
                    $opciones
                 );
-                $conect =>setAttribute (PDO:: ATTR_ERRMODE, PDO::ERRMODE_WARNING);
+                $conect -> setAttribute (PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
 
                 $this -> $link = $conect;
             }
@@ -40,6 +40,4 @@
 
     }
 
-    
-    
 ?>
