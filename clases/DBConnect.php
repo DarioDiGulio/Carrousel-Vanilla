@@ -31,7 +31,7 @@ class DBConnect
         if ($table != '') {
             $pdo = $this->link;
             $pdo->beginTransaction();
-            $sql = 'SELECT * FROM :table';
+            $sql = 'SELECT * FROM ARTICULOS';
             $stmt = $pdo->prepare($sql);
             $stmt->bindParam(":table", $table, PDO::PARAM_STR);
             echo $sql;
