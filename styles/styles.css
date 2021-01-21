@@ -23,7 +23,7 @@ main {
   display: flex;
   align-items: center;
   flex-flow: wrap;
-  margin: 0px 5px;
+  margin: auto;
   width: 80vw;
 }
 
