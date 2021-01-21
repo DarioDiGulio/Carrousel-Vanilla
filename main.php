@@ -10,7 +10,9 @@
       include "ejecutables/cargarProductos.php";
 
       foreach ($todosLosArticulos as $articulo) {
+          echo var_dump($articulo);
           ?>
+          
           <div class="carrousel-item prev">
             <div class="card01">
               <h1 class="card-title">
