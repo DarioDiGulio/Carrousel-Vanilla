@@ -11,14 +11,13 @@
 
       foreach ($todosLosArticulos as $articulo) {
           echo var_dump($articulo);
-          echo $articulo['NOMBRE'];
           ?>
           
           <div class="carrousel-item prev">
             <div class="card01">
               <h1 class="card-title">
                 <?php
-                  echo $articulo -> nombre
+                  echo $articulo['NOMBRE'];
                 ?>
               </h1>
               <div class="product-section">
@@ -26,7 +25,7 @@
                   src="img/01imagen.jpg"
                   alt="
                     <?php
-                      echo $articulo -> nombre
+                      echo $articulo['NOMBRE'];
                     ?>
                   "
                   width="185"
@@ -37,13 +36,13 @@
                 <h2 class="card-code">
                   CÓDIGO:
                   <?php
-                    echo $articulo -> codigo
+                    echo $articulo['CODIGO'];
                   ?>
                 </h2>
                 <p class="card-description">
                   Descripción:
                   <?php
-                    echo $articulo -> descripcion
+                    echo $articulo['DESCRIPCION']
                   ?>
                 </p>
                 <button
