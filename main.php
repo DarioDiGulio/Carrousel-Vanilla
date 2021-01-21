@@ -7,9 +7,9 @@
       class="action-arrow non-selectable"
     />
       <?php
-        // include "./ejecutables/cargarProductos.php";
-        
-        foreach ($articulos as $articulo){
+      include "ejecutables/cargarProductos.php";
+
+      foreach ($todosLosArticulos as $articulo) {
           ?>
           <div class="carrousel-item prev">
             <div class="card01">
