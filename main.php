@@ -10,8 +10,8 @@
       include "ejecutables/cargarProductos.php";
 
       foreach ($todosLosArticulos as $articulo) {
+        if ($articulo['ESTADO'] == '1'){
           ?>
-          
           <div class="carrousel-item prev">
             <div class="card01">
               <h1 class="card-title">
@@ -54,6 +54,7 @@
             </div>
           </div>
       <?php       
+          }
         }
       ?>
     <img
