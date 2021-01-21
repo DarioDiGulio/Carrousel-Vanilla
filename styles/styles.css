@@ -1,3 +1,8 @@
+/* Main */
+main {
+  background-color: grey;
+}
+
 /* Arrows */
 
 .action-arrow {
@@ -17,9 +22,8 @@
 #carrousel {
   display: flex;
   align-items: center;
-  margin: auto;
+  margin: 0px 5px;
   width: 80vw;
-  background-color: grey;
 }
 
 .carrousel-item {
