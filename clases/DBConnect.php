@@ -31,9 +31,9 @@ class DBConnect
         if ($table != '') {
             $pdo = $this->link;
             $pdo->beginTransaction();
-            $sql = 'SELECT * FROM : ' . $table;
+            $sql = 'SELECT * FROM :table';
             $stmt = $pdo->prepare($sql);
-            $stmt->bindParam(": ".$table, $table, PDO::PARAM_STR);
+            $stmt->bindParam(":table", $table, PDO::PARAM_STR);
             $stmt->execute();
             $pdo->commit();
             $resultado = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -51,19 +51,3 @@ class DBConnect
 }
 
 ?>
-
-<!-- 
-public function SelecionarCliente () {
-if ($_GET ['c'] != "") {
-$id_cliente = $_GET['c'];
-$link = $this-> pdo;
-$link-> beginTransaction();
-
-$stmt = $link -> prepare($sql);
-$stmt-> bindParam(": id_cliente", $id_cliente, PDO :: PARAM_STR);
-$stmt-> ejecutar();
-$link-> commit();
-$resultado = $stmt-> fetchAll(PDO :: FETCH_ASSOC);
-return $resultado;
-}
-}  -->
