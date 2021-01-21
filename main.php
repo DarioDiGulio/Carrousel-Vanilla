@@ -1,11 +1,5 @@
 <main>
   <div id="carrousel">
-    <img
-      src="img/prev.png"
-      id="prev"
-      alt="prev"
-      class="action-arrow non-selectable"
-    />
       <?php
       include "ejecutables/cargarProductos.php";
 
@@ -57,11 +51,5 @@
           }
         }
       ?>
-    <img
-      src="img/next.png"
-      id="next"
-      alt="next"
-      class="action-arrow non-selectable"
-    />
   </div>
 </main>

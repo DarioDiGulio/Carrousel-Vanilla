@@ -25,7 +25,6 @@ main {
   justify-content: center;
   flex-flow: wrap;
   margin: auto;
-  width: 80vw;
 }
 
 .carrousel-item {
