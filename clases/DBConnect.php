@@ -34,6 +34,7 @@ class DBConnect
             $sql = 'SELECT * FROM :table';
             $stmt = $pdo->prepare($sql);
             $stmt->bindParam(":table", $table, PDO::PARAM_STR);
+            echo $sql;
             $stmt->execute();
             $pdo->commit();
             $resultado = $stmt->fetchAll(PDO::FETCH_ASSOC);
