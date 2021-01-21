@@ -1,8 +1,3 @@
-body {
-  background-color: grey;
-  font-family: "Oswald", sans-serif;
-}
-
 /* Arrows */
 
 .action-arrow {
@@ -24,6 +19,7 @@ body {
   align-items: center;
   margin: auto;
   width: 80vw;
+  background-color: grey;
 }
 
 .carrousel-item {
