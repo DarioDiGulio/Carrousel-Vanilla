@@ -11,6 +11,7 @@
 
       foreach ($todosLosArticulos as $articulo) {
           echo var_dump($articulo);
+          echo $articulo['nombre'];
           ?>
           
           <div class="carrousel-item prev">
