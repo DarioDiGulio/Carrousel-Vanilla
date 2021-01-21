@@ -22,6 +22,7 @@ main {
 #carrousel {
   display: flex;
   align-items: center;
+  flex-flow: wrap;
   margin: 0px 5px;
   width: 80vw;
 }
