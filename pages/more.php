@@ -8,7 +8,7 @@
 <body>
     <?php
         if (isset($_GET["id"])) {
-            $phpVar2 = $_GET["id"];
+            $phpVar1 = $_GET["id"];
             echo $phpVar1;
         }
     ?>
