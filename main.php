@@ -40,7 +40,9 @@
                 </p>
                 <button
                   class="card-action"
-                  onclick="window.location.href='/pages/more.html'"
+                  onclick="window.location.href='/pages/more.php?id='+ <?php
+                  echo $articulo['ID'];
+                ?>"
                 >
                   Ver más
                 </button>
