@@ -4,4 +4,4 @@
     
     $DBConnect = new DBConnect();
     $articulo = new Articulos($DBConnect);
-?>  
+?>

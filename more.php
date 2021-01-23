@@ -11,11 +11,11 @@
         
         if (isset($_GET["id"])) {
             $idProduct = $_GET["id"];
-            $articulo = $articulo->verMas($idProduct);
+            $current = $articulo->verMas($idProduct);
     ?>
         <h1 class="card-title">
             <?php
-                echo $articulo['NOMBRE'];
+                echo $current['NOMBRE'];
             ?>
         </h1>
     <?php
