@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php
+        if (isset($_GET["id"])) {
+            $phpVar2 = $_GET["id"];
+            echo $phpVar1;
+        }
+    ?>
+    <script src="../js/more.js"></script>
 </body>
 </html>
