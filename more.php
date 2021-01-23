@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        include "../ejecutables/verMasProducto.php";
+        include "ejecutables/verMasProducto.php";
         
         if (isset($_GET["id"])) {
             $idProduct = $_GET["id"];
@@ -21,6 +21,5 @@
     <?php
         }
     ?>
-    <script src="../js/more.js"></script>
 </body>
 </html>
