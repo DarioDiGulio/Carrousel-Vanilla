@@ -33,7 +33,7 @@ class DBConnect
             $pdo->beginTransaction();
             $sql = 'SELECT * FROM ARTICULOS';
             $stmt = $pdo->prepare($sql);
-            $stmt->bindParam(":table", $table, PDO::PARAM_STR);
+            #$stmt->bindParam(":table", $table, PDO::PARAM_STR);
             $stmt->execute();
             $pdo->commit();
             $resultado = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -45,8 +45,19 @@ class DBConnect
 
     public function getRowFrom($table, $column, $value)
     {
-        $sql = 'SELECT * FROM ' . $table . ' WHERE ' . $column . ' = ' . $value;
-        return $this->link->query($sql);
+        if ($table != '' && $column != '' && $value != '') {
+            $pdo = $this->link;
+            $pdo->beginTransaction();
+            $sql = 'SELECT * FROM ' . $table . ' WHERE ' . $column . ' = ' . $value;
+            $stmt = $pdo->prepare($sql);
+            #$stmt->bindParam(":table", $table, PDO::PARAM_STR);
+            $stmt->execute();
+            $pdo->commit();
+            $resultado = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            return $resultado;
+        } else {
+            return [];
+        }
     }
 }
 

@@ -10,5 +10,9 @@ class Articulos{
 		return $this->pdo->getAll("ARTICULOS");
 	}
 
+	public function verMas($id){
+		return $this->pdo->getRowFrom('ARTICULOS', 'ID', $id);
+	}
+
 }
 ?>

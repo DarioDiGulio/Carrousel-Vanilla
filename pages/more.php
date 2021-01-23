@@ -7,9 +7,18 @@
 </head>
 <body>
     <?php
+        include "../ejecutables/verMasProducto.php";
+        
         if (isset($_GET["id"])) {
-            $phpVar1 = $_GET["id"];
-            echo $phpVar1;
+            $idProduct = $_GET["id"];
+            $articulo = $articulo->verMas($idProduct);
+    ?>
+        <h1 class="card-title">
+            <?php
+                echo $articulo['NOMBRE'];
+            ?>
+        </h1>
+    <?php
         }
     ?>
     <script src="../js/more.js"></script>
