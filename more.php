@@ -11,7 +11,7 @@
         
         if (isset($_GET["id"])) {
             $idProduct = $_GET["id"];
-            $current = $articulo->verMas($idProduct);
+            $current = $articulos->verMas($idProduct);
     ?>
         <h1 class="card-title">
             <?php

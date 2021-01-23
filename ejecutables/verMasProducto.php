@@ -3,5 +3,5 @@
     require "clases/DBConnect.php";
     
     $DBConnect = new DBConnect();
-    $articulo = new Articulos($DBConnect);
+    $articulos = new Articulos($DBConnect);
 ?>
